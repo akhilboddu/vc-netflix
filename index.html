@@ -12,7 +12,9 @@
   </head>
 
   <body>
+    <div class="media-query"></div>
     <div class="banner-wrap">
+      <div class="overlay"></div>
       <nav>
         <img class="logo" src="./assets/logo.png" alt="Netflix Logo" />
         <a
@@ -24,12 +26,15 @@
       </nav>
 
       <div class="banner-container">
-        <h1 class="title">Unlimited movies, TV shows, and more.</h1>
+        <h1 class="title">
+          Unlimited movies, TV<br />
+          shows, and more.
+        </h1>
         <h2 class="subtitle">Watch anywhere. Cancel anytime.</h2>
-        <h3>
+        <h3 class="email-text">
           Ready to watch? Enter your email to create or restart your membership.
         </h3>
-        <form>
+        <form class="get-started-form">
           <input type="text" placeholder="Email address" />
           <button>Get Started ></button>
         </form>
@@ -37,21 +42,24 @@
     </div>
 
     <div class="info-container">
-      <h1>Enjoy on your TV.</h1>
-      <p>
-        Watch on Smart TVs, <strong>Playstation</strong>, <em>Xbox</em>,
-        Chromecast, Apple TV, Blu-ray players, and more.
-      </p>
-
-      <img
-        src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
-      />
-      <video autoplay playsinline muted loop>
-        <source
-          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
-          type="video/mp4"
+      <div class="info">
+        <h1 class="title">Enjoy on your TV.</h1>
+        <p class="subtitle">
+          Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+          players, and more.
+        </p>
+      </div>
+      <div class="tv-container">
+        <img
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
         />
-      </video>
+        <video autoplay playsinline muted loop>
+          <source
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+            type="video/mp4"
+          />
+        </video>
+      </div>
     </div>
 
     <footer>
