@@ -16,6 +16,24 @@
   color: white;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 56px;
+  padding-top: 20px;
+}
+nav .logo {
+  height: 36px;
+}
+nav .sign-in-btn {
+  padding: 7px 17px;
+  background: red;
+  text-decoration: none;
+  color: white;
+  border-radius: 3px;
+}
+
 .title {
   font-size: 3.125rem;
 }
